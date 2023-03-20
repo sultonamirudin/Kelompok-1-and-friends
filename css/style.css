@@ -2,6 +2,9 @@
     font-family: "Quicksand", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 p {
     font-weight: 400;
