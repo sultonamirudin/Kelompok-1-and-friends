@@ -44,6 +44,9 @@ p {
     opacity: 1;
 }
 
+.radius{
+    border-radius: 15px;
+}
 
 .img-main {
     display: flex;
