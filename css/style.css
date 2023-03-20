@@ -2,32 +2,38 @@
     font-family: "Quicksand", sans-serif;
 }
 
-body {
-    background-color: #252525;
-}
-
 
 p {
     font-weight: 400;
 }
 
+.img-main {
+    height: 500px;
+}
 
+.judul {
+    font-weight: 900;
+    padding-left: 100px ;
+    padding-right: 200px;
+}
 
 .postc {
     width: 200px;
-    height: 200px;  
+    height: 220px;  
     border-radius: 20px;
     background: white;
     color: black;
     z-index: 2;
     transition: .1s ease-in-out;
+    overflow: hidden;
 }
 .img1 {
     border-radius: 20px;
-    width: 200px;
-    height: 210px;
+    max-width: 200px;
+    max-height: 210px;
     object-fit: cover;
 }
+
 
 .brandn1 {
     position: relative;
@@ -52,11 +58,16 @@ p {
     top: -5px;
     height: 350px;
     cursor: pointer;
-  } 
-  .postc:hover .hidden{
+}
+
+.postc:hover .img1 {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.postc:hover .hidden{
     visibility: visible ;
     opacity: 1;
-  } 
+} 
 
 
 .highlights {
@@ -64,24 +75,6 @@ p {
     background: white;
     border-radius: 20px;
 }   
-
-.img {
-    position: absolute;
-    object-fit: cover;
-    margin-top: -20px;
-    width: 100%;
-    height: 300px ;
-    z-index: -1;
-}
-.imgatas {    
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;   
-
-}
 
 .item-brand img {
     width: 100px;
@@ -126,7 +119,8 @@ p {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.title1 {
+
+.title-atas {
     text-align: center;
     font-weight: 500;
     font-size: 30px;
@@ -148,7 +142,7 @@ p {
 }
 
 .checkme:checked + label {
-    visibility: hidden;
+    display: none;
 } 
 
 #logoslider {
@@ -161,7 +155,7 @@ p {
 
 #kontainer {
     height: 200px;
-    width: 800px;
+    width: "";
     transition: .1s ease-in-out;
 }
 .pointer {
@@ -175,3 +169,15 @@ p {
     line-height: 30px;
 }
 
+.new {
+    height: 45px;
+    width: 50px;
+    background-color: #252525;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    padding: 8px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+}
