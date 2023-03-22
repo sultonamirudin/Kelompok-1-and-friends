@@ -16,6 +16,7 @@ $('.slider-kategori').slick({
     infinite:true
 });
 
+
 const checkme = document.querySelector("#checkme")
 const logoSlider = document.querySelector("#logo-slider")
 const alllogo = document.querySelector("#all-logo")
