@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <body>
+
+
     <div class="row">
         <div class="col-6 row">
             <div class="col-12" style="display: flex; padding-left: 30%;">
@@ -33,7 +35,7 @@
    
 
     <!-- bagian perkenalan -->
-    <div class="col-6 mx-auto mb-5 py-5">
+    <div class="col-6 mx-auto mb-5 py-5 margintop-content">
         <p class="text">Who Are We</p>
         <h1 class="title-atas">Welcome To SPOSTO</h1>
         <h1 class="title-atas" style="color: #aeadad;">~~~~~ <img src="https://png.pngtree.com/png-vector/20190830/ourlarge/pngtree-one-line-drawing-of-shoes-minimalist-design-vector-illustration-minimalism-style-png-image_1716637.jpg" alt="" style="width: 100px;height: 100px;"> ~~~~~</h1>
@@ -41,7 +43,74 @@
         <p class="text my-5">C.E.O SPOSTO<b> - AMIRUDIN</b></p>
     </div>    
 
-    <div class="col-10 highlights ms-auto me-auto box-content p-4">  
+    <!-- DiscountCarousel -->
+    <div class="col-10 ms-auto me-auto p-3 box-content row">
+        <!-- disc -->
+        <div class="col-4">
+            <div class="col-12" >
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000"><img src="img/banner/1.jpg" class="d-block w-100 radius" alt="..."></div>
+                    <div class="carousel-item" data-bs-interval="2000"><img src="img/banner/2.jpg" class="d-block w-100 radius" alt="..."></div>
+                    <div class="carousel-item"><img src="img/banner/3.jpg" class="d-block w-100 radius" alt="..."></div>
+                    <div class="carousel-item"><img src="img/banner/4.jpg" class="d-block w-100 radius" alt="..."></div>
+                    <div class="carousel-item"><img src="img/banner/5.jpg" class="d-block w-100 radius" alt="..."></div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 mt-3">
+                <div id="gift" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000"><img src="img/gift/1.png" class="d-block w-100 radius" alt="..."></div>
+                    <div class="carousel-item" data-bs-interval="2000"><img src="img/gift/2.png" class="d-block w-100 radius" alt="..."></div>
+                    <div class="carousel-item"><img src="img/gift/3.png" class="d-block w-100 radius" alt="..."></div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#gift" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#gift" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- event -->
+        <div class="col-8"><img class="radius img-fluid" src="img/event/1.jpg" alt=""></div>
+    </div>
+
+    <!-- bagian kategori -->
+    <div class="col-10 mx-auto box-content mt-5 p-5 row">
+        <div><h1 class="title">CATEGORY</h1></div>
+        <div class="slider-kategori col-10 ms-auto me-auto" id="slider-kategori">
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/1.png" alt=""><p class="col-6">sepatu</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/2.png" alt=""><p class="col-6">Accesoris</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/3.png" alt=""><p class="col-6">Celana</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/4.png" alt=""><p class="col-6">Baju</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/5.png" alt=""><p class="col-6">Peralatan</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/7.png" alt=""><p class="col-6">Tas</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/9.png" alt=""><p class="col-6">KaosKaki</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/10.png" alt=""><p class="col-6">Sandal</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/11.png" alt=""><p class="col-6">Bundling</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/12.png" alt=""><p class="col-6">JamTangan</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/13.png" alt=""><p class="col-6">Masker</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/14.png" alt=""><p class="col-6">Topi</p></div></div>
+            <div class="item"><div class="row col-10 p-1 border-s radius-s pointer" style="height: 30px;"><img class="col-6 img-fluid" src="img/division/15.png" alt=""><p class="col-6">Suplemen</p></div></div>
+        </div>
+    </div>
+
+
+    <!-- bagian sale -->
+    <div class="col-10 highlights ms-auto me-auto box-content margintop-content p-4">  
        <div class="row pe-5 ps-5 bag-title">
             <h1 class="title">SALE</h1>     
             <a href="#" class="linkstyle"style="">See More -></a>
@@ -50,46 +119,54 @@
             <div class="me-auto ms-auto row"> 
                 <div class="col-2 me-auto ms-auto">
                     <div class="postc">
-                        <img class="img1" src="https://www.ncrsport.com/img/storage/small/H00797-1.jpg?1" alt="">
-                        <div class="brandn1">Reebok Endless Road 3.0 <p class="hidden">instock</p></div>
-                        <p class="ms-3 hidden">Rp 600.000,00</p>
-                        <div class="row">
-                            <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
-                            <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
-                        </div>
+                        <a class="link" href="#">
+                            <img class="img1" src="https://www.ncrsport.com/img/storage/small/H00797-1.jpg?1" alt="">
+                            <div class="brandn1">Reebok Endless Road 3.0 <p class="hidden">instock</p></div>
+                            <p class="ms-3 hidden">Rp 600.000,00</p>
+                            <div class="row">
+                                <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
+                                <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-2 me-auto ms-auto">
                     <div class="postc">
-                        <img class="img1" src="https://www.ncrsport.com/img/storage/small/M1080K12-1.jpg?1" alt="">
-                        <div class="brandn1">New Balance X 1080 V12 <p class="hidden">instock</p></div>
-                        <p class="ms-3 hidden">Rp 600.000,00</p>
-                        <div class="row">
-                            <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
-                            <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
-                        </div>
+                        <a class="link" href="#">
+                            <img class="img1" src="https://www.ncrsport.com/img/storage/small/M1080K12-1.jpg?1" alt="">
+                            <div class="brandn1">New Balance X 1080 V12 <p class="hidden">instock</p></div>
+                            <p class="ms-3 hidden">Rp 600.000,00</p>
+                            <div class="row">
+                                <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
+                                <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-2 me-auto ms-auto">
                     <div class="postc">
-                        <img class="img1" src="https://www.ncrsport.com/img/storage/small/gx0131-1.jpg?1" alt="">
-                        <div class="brandn1">Reebok Zig Kinetica 2.5 <p class="hidden">instock</p></div>
-                        <p class="ms-3 hidden">Rp 600.000,00</p>
-                        <div class="row">
-                            <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
-                            <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
-                        </div>
+                        <a class="link" href="#">
+                            <img class="img1" src="https://www.ncrsport.com/img/storage/small/gx0131-1.jpg?1" alt="">
+                            <div class="brandn1">Reebok Zig Kinetica 2.5 <p class="hidden">instock</p></div>
+                            <p class="ms-3 hidden">Rp 600.000,00</p>
+                            <div class="row">
+                                <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
+                                <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-2 me-auto ms-auto">
                     <div class="postc">
-                        <img class="img1" src="https://www.ncrsport.com/img/storage/small/M1080K12-1.jpg?1" alt="">
-                        <div class="brandn1">New Balance X 1080 V12 <p class="hidden">instock</p></div>
-                        <p class="ms-3 hidden">Rp 600.000,00</p>
-                        <div class="row">
-                            <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
-                            <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
-                        </div>
+                        <a class="link" href="#">
+                            <img class="img1" src="https://www.ncrsport.com/img/storage/small/M1080K12-1.jpg?1" alt="">
+                            <div class="brandn1">New Balance X 1080 V12 <p class="hidden">instock</p></div>
+                            <p class="ms-3 hidden">Rp 600.000,00</p>
+                            <div class="row">
+                                <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
+                                <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -176,59 +253,23 @@
             <div class="col-6 ">
                 <div class="col-2 me-auto ms-auto">
                     <div class="postc">
-                        <div class="new">NEW</div>
-                        <div class="post-img"><img class="img1" src="https://www.ncrsport.com/img/storage/small/M1080K12-1.jpg?1" alt=""></div>
-                        <div class="brandn1">New Balance X 1080 V12 <p class="hidden">instock</p></div>
-                        <p class="ms-3 hidden">Rp 600.000,00</p>
-                        <div class="row">
-                            <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
-                            <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
-                        </div>
+                        <a class="link" href="#">
+                            <div class="new">NEW</div>
+                            <img class="img1" src="https://www.ncrsport.com/img/storage/small/M1080K12-1.jpg?1" alt="">
+                            <div class="brandn1">New Balance X 1080 V12 <p class="hidden">instock</p></div>
+                            <p class="ms-3 hidden">Rp 600.000,00</p>
+                            <div class="row">
+                                <a href="#" class="col-3 btn btn-dark ms-4 hidden"  style="--bs-btn-font-size: 14px;--bs-btn-border-radius: 10px;">Buy</a>
+                                <a href="#" class="col-4 btn btn-light border border-dark ms-2 hidden"  style="--bs-btn-padding-x: 2px; --bs-btn-font-size: 14px; --bs-btn-border-radius:10px; ">Detail</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-     <!-- DiscountCarousel -->
-     <div class="row col-10 ms-auto me-auto p-3">
-        <div class="col-6 ms-auto" >
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000"><img src="img/banner/1.jpg" class="d-block w-100 radius" alt="..."></div>
-                  <div class="carousel-item" data-bs-interval="2000"><img src="img/banner/2.jpg" class="d-block w-100 radius" alt="..."></div>
-                  <div class="carousel-item"><img src="img/banner/3.jpg" class="d-block w-100 radius" alt="..."></div>
-                  <div class="carousel-item"><img src="img/banner/4.jpg" class="d-block w-100 radius" alt="..."></div>
-                  <div class="carousel-item"><img src="img/banner/5.jpg" class="d-block w-100 radius" alt="..."></div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-        <div class="col-6 me-auto">
-            <div id="gift" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000"><img src="img/gift/1.png" class="d-block w-100 radius" alt="..."></div>
-                  <div class="carousel-item" data-bs-interval="2000"><img src="img/gift/2.png" class="d-block w-100 radius" alt="..."></div>
-                  <div class="carousel-item"><img src="img/gift/3.png" class="d-block w-100 radius" alt="..."></div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#gift" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#gift" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

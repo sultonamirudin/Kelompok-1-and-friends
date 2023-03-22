@@ -7,12 +7,14 @@ $('.logo-slider').slick({
     infinite: true
 });
 
-const myCarouselElement = document.querySelector('#carouselExampleInterval')
-
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  touch: true
-})
+$('.slider-kategori').slick({
+    slidesToShow: 5,
+    slidesToScroll: 3,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite:true
+});
 
 const checkme = document.querySelector("#checkme")
 const logoSlider = document.querySelector("#logo-slider")
