@@ -268,3 +268,7 @@ p {
 	height: 300px;
 	width: 300px;
 }
+
+.NEWS img{
+    width: 100%;
+}
