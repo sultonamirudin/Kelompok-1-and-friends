@@ -2,10 +2,34 @@
     font-family: "Quicksand", sans-serif;
 }
 
+.link {
+    text-decoration: none;
+    color: #252525;
+}
+
+.link:hover {
+    color: black;
+}
+
+body {
+    overflow-x: hidden;
+}
 
 p {
     font-weight: 400;
 }
+
+.border-s {
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.item img {
+    height: 20px;
+    width: 50px;
+    justify-items: stretch;
+}
+
+
 
 .button{
     height: 130px;
@@ -42,6 +66,19 @@ p {
 .button:hover .r {
     margin-right: 1px;
     opacity: 1;
+}
+
+.radius{
+    border-radius: 15px;
+}
+
+.radius-s {
+    border-radius: 10px;
+}
+
+.item p {
+    align-items: center;
+    font-size: 12px;
 }
 
 
@@ -220,4 +257,14 @@ p {
     font-weight: 700;
     position: absolute;
     z-index: 1;
+}
+
+.img-kategori{
+	width: 98%;
+	margin-top: 25px;
+}
+
+.square {
+	height: 300px;
+	width: 300px;
 }

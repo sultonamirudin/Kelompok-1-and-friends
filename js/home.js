@@ -7,6 +7,16 @@ $('.logo-slider').slick({
     infinite: true
 });
 
+$('.slider-kategori').slick({
+    slidesToShow: 5,
+    slidesToScroll: 3,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite:true
+});
+
+
 const checkme = document.querySelector("#checkme")
 const logoSlider = document.querySelector("#logo-slider")
 const alllogo = document.querySelector("#all-logo")
