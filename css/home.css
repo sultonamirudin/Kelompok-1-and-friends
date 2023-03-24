@@ -154,8 +154,8 @@ p {
 }   
 
 .item-brand img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    max-width: 100px;
     background-size: cover;
 }
 
@@ -171,6 +171,7 @@ p {
 }
 
 .kontainer {
+    max-height: 600px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -272,3 +273,9 @@ p {
 .NEWS img{
     width: 100%;
 }
+
+@media (max-width: 700px) {
+    .pc {   
+      display: none;
+    }
+  }

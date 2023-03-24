@@ -26,13 +26,13 @@ checkme.addEventListener("click", function () {
     if (logoSlider.style.display === "block") {
         logoSlider.style.display = "block";
         alllogo.style.visibility = "hidden";
-        kontainer.style.height = "200px";
-        kontainer.style.width = "800px";
+        kontainer.style.height = "100%";
+        kontainer.style.width = "100%";
     } else {
         logoSlider.style.display = "none";
         alllogo.style.visibility = "visible";
-        kontainer.style.height = "550px";
-        kontainer.style.width = "1000px";
+        kontainer.style.height = "100%";
+        kontainer.style.width = "100%";
 
     }
 })
