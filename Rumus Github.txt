@@ -1,0 +1,27 @@
+git branch ahmad 
+git branch
+git ceckout jamal
+git branch
+git status
+git add .
+git commit -m "blalala"
+git push -u origin blalala
+
+
+cara mengambil data blala
+git checkout bayupm
+git marge jamal 
+git status
+git push
+ 
+cara mengambil semua data 
+git checkout pages
+git pull
+git marge bayupm
+
+
+1. Buat branch : git branch <Nama branch>
+2. Pindah branch : git chekout <Nama branch>
+3. Koding data dan push : git add . , git commit -m "Isi perubahan commit", git push (jika di dalam branchnya)
+4. Gabung barnch : git marge <Nama branch>
+5. push branch (gabung) : git push
