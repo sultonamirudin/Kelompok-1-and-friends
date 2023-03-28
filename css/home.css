@@ -8,6 +8,12 @@
     color: #252525;
 }
 
+.link1 {
+    text-decoration: none;
+    color: inherit;
+}
+ 
+
 .link:hover {
     color: black;
 }
@@ -278,5 +284,8 @@ p {
 @media (max-width: 700px) {
     .pc {   
       display: none;
+    }
+    .postc{
+        position: relative;
     }
   }
